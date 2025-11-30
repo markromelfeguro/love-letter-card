@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="/asset/css/styles.css">
+</head>
+<body>
+    <div class="lavender-flow-bg"></div>
+    <div id="background-hearts"></div>
+    <div id="background-flowers"></div>
+    
+    <div class="envelope-wrapper" onclick="toggleLetter()">
+        <div class="envelope">
+            
+            <div class="letter">
+                <p>
+                    "You are my favorite thought,<br>
+                    my favorite notification,<br>
+                    and my favorite everything."<br>
+                    <span class="signature">♥ Always</span>
+                </p>
+            </div>
+
+            <div class="flap pocket-left"></div>
+            <div class="flap pocket-right"></div>
+            <div class="flap pocket-bottom"></div>
+            <div class="flap flap-top"></div>
+            
+            <div class="heart-seal">
+                <p class="heart-open-btn"> ❤</p>
+                <p class="tooltip-text">OPEN</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="instruction">
+        <button class="reset-btn" onclick="toggleLetter(event)">Close Letter</button>
+    </div>
+
+    <script src="/asset/js/script.js"></script>
+</body>
+</html>
