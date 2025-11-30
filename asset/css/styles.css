@@ -279,7 +279,7 @@ body {
 .heart-open-btn {
     animation: pulse 2s infinite;
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--heart-color);
@@ -292,7 +292,7 @@ body {
 
 .tooltip-text {
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 7;
